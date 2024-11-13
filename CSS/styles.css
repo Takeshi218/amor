@@ -1,0 +1,44 @@
+/* Estilos generales de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* Fondo de color sólido */
+    /* background-color: #f0f8ff; */
+
+    /* Fondo con degradado de color */
+    background: linear-gradient(135deg, #ee60e9, #e70fc3);
+}
+
+h1 {
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #0479df;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cfcfcf;
+}
+
+#no {
+    position: relative;
+}
